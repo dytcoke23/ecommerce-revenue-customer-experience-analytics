@@ -10,7 +10,7 @@ From the repository root, run:
 python src/download_data.py
 ```
 
-The script first downloads the official Kaggle release, `olistbr/brazilian-ecommerce`. If Kaggle access is unavailable, it tries a documented public mirror and rejects a download that does not match the expected schemas and row counts. The local `data/raw/download_manifest.json` records the URL and retrieval time; it is Git-ignored.
+The script first downloads the official Kaggle release, `olistbr/brazilian-ecommerce`. If Kaggle access is unavailable, it accepts a user-supplied, documented mirror archive through `--url` and rejects a download that does not match the expected schemas and row counts. The local `data/raw/download_manifest.json` records the URL and retrieval time; it is Git-ignored.
 
 You may instead download the archive manually from [Kaggle](https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce) and extract these files into `data/raw/`:
 
