@@ -1,0 +1,24 @@
+# Source data and generated local outputs
+data/raw/*.csv
+data/raw/*.zip
+data/raw/download_manifest.json
+data/processed/*.csv
+data/*.sqlite
+data/*.db
+
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+
+# Power BI local files
+*.pbix
+*.pbit
+
+# OS/editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

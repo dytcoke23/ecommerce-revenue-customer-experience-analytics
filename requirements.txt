@@ -1,0 +1,2 @@
+# The pipeline uses Python's standard library. Pytest is used for verification.
+pytest>=8.0,<9.0
